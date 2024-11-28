@@ -1,0 +1,181 @@
+body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url('./city-bg.png');
+}
+
+.logo{
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 2px;
+}
+
+.logo img{
+    background-color: white;
+    width: 25px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    padding: 0.5rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding:0;
+}
+.item a{
+    font-weight: bolder;
+    font-size: 1.5em;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+
+.item a:hover{
+    text-decoration: underline;
+}
+
+.box-cover{
+    border-radius: 20px;
+    padding:10px;
+    color:black;
+    background-color: white;
+}
+.long{
+    width: 20rem;
+    padding: 5px;
+}
+.no-outline{
+    border: none;
+    color:brown;
+}
+
+.btn{
+    color: white;
+    background-color: brown;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 6fr 4fr;
+    justify-content: center;
+}
+
+.content{
+    color:white;
+    padding: 10px;
+}
+
+.content h1{
+    font-size: 2.5em;
+}
+
+.content p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.content button{
+    float: right;
+    border: 0.5px solid white;
+}
+
+.social ul{
+    list-style: none;
+}
+.social img{
+    width: 25px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+.vertical-rule{
+    border-left: 1px solid white;
+    height: 100px;
+    margin: 50px 0px 50px 50px;
+}
+
+.teams{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: left;
+    background-color: grey;
+}
+
+.team p{
+    font-size: 1.2em;
+}
+
+.team img{
+    width: 25px;
+}
+
+.contact-form{
+    color: white;
+    width: 90%;
+    line-height: 2em;
+}
+
+.contact-form textarea{
+    height: 150px;
+}
+
+.contact-form label{
+    display: block;
+    margin-left: 5px;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    border: 0.5px solid #fff;
+    border-radius: 2px;
+    background: none;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.center{
+   display: block;
+   margin: 5px auto;
+}
+
+.places{
+    border-radius: 10px;
+}
+
+.place{
+    background-color:aliceblue;
+    margin: 5px 0px;
+}
+
+.place img{
+    width: 100%;
+}
+
+.place h3, .place p{
+    padding-left:10px;
+}
